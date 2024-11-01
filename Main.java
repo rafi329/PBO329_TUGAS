@@ -5,7 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Bengkel bengkel = new Bengkel("Bengkel Terbaik");
 
-        System.out.println("   === " + bengkel.getnama() + " ===");
+        System.out.println("   === " + bengkel.getNama() + " ===");
         System.out.println();
         System.out.println("=== Sistem Manajemen Bengkel ===");
         
