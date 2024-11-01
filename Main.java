@@ -32,10 +32,12 @@ public class Main {
 
             Kendaraan kendaraan;
             if (jenisKendaraan == 1) {
-                kendaraan = new Mobil(platNomor, merk);
+                kendaraan = new Mobil("", "");
             } else {
-                kendaraan = new Motor(platNomor, merk);
+                kendaraan = new Motor("", "");
             }
+            kendaraan.setPlatNomor(platNomor);
+            kendaraan.setMerk(merk);
             pelanggan.tambahKendaraan(kendaraan);
 
            
