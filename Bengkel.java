@@ -1,15 +1,15 @@
 import java.util.ArrayList;
 
 public class Bengkel {
-    private String nama;
+    private String Nama;
     private ArrayList<Pelanggan> pelangganList = new ArrayList<>();
     private ArrayList<Kendaraan> kendaraanList = new ArrayList<>();
 
-    public Bengkel(String nama) {
-        this.nama = nama;
+    public Bengkel(String Nama) {
+        this.Nama = Nama;
     }
-    public String getnama() {
-        return nama;
+    public String getNama() {
+        return Nama;
     }
 
     public void tambahPelanggan(Pelanggan pelanggan) {
